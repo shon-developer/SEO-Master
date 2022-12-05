@@ -9,4 +9,4 @@
 
 # SEO Master
 
-![image](./assets/SEO%20Master.png)
+![image](./assets/SEOMaster.png)
