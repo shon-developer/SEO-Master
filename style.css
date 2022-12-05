@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Poppins";
+}
+.navbar-container {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-left: 80px;
+}
+
+.list-item {
+  color: #888;
+}
+
+.list-item:first-child {
+  color: #000;
+  font-weight: 500;
+}
+
+.navbar-container div img {
+  width: 100px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+  .list {
+    display: none;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media (max-width: 568px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+.nav-button {
+  padding: 12px 25px 12px 25px;
+  background-color: #4b2ebfcf;
+  border-radius: 5px;
+  font-weight: 20%;
+  color: #fff;
+  border: none;
+}
+
+.button-group .nav-button {
+  position: absolute;
+  right: 10%;
+  top: 25px;
+}
+
+.banner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 15px;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #22135dcf;
+}
+
+h1 span {
+  color: #4b2ebfcf;
+}
+
+p {
+  width: 400px;
+  color: #888888;
+}
+
+.btn {
+  margin-top: 29px;
+  padding: 15px 40px;
+}
+
+img[src="./assets/Header Illustration.png"] {
+  width: 100%;
+  height: auto;
+}
